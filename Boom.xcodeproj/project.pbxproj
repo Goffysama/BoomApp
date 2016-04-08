@@ -15,6 +15,7 @@
 		85A4F9AA1C90B4B700149E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A4F9A81C90B4B700149E60 /* LaunchScreen.storyboard */; };
 		85A4F9B51C90B4B700149E60 /* BoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4F9B41C90B4B700149E60 /* BoomTests.swift */; };
 		85A4F9C01C90B4B800149E60 /* BoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4F9BF1C90B4B800149E60 /* BoomUITests.swift */; };
+		85A4F9D01C90C2E800149E60 /* Img.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4F9CF1C90C2E700149E60 /* Img.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		85A4F9BB1C90B4B800149E60 /* BoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A4F9BF1C90B4B800149E60 /* BoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomUITests.swift; sourceTree = "<group>"; };
 		85A4F9C11C90B4B800149E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A4F9CF1C90C2E700149E60 /* Img.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Img.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				85A4F99C1C90B4B400149E60 /* AppDelegate.swift */,
 				85A4F99E1C90B4B500149E60 /* ViewController.swift */,
 				85A4F9A01C90B4B500149E60 /* Main.storyboard */,
+				85A4F9CF1C90C2E700149E60 /* Img.swift */,
 				85A4F9A61C90B4B700149E60 /* Assets.xcassets */,
 				85A4F9A81C90B4B700149E60 /* LaunchScreen.storyboard */,
 				85A4F9AB1C90B4B700149E60 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85A4F99F1C90B4B500149E60 /* ViewController.swift in Sources */,
+				85A4F9D01C90C2E800149E60 /* Img.swift in Sources */,
 				85A4F99D1C90B4B400149E60 /* AppDelegate.swift in Sources */,
 				85A4F9A51C90B4B600149E60 /* Boom.xcdatamodeld in Sources */,
 			);
@@ -407,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gently.Boom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -418,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gently.Boom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -488,6 +494,7 @@
 				85A4F9C61C90B4B800149E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85A4F9C71C90B4B800149E60 /* Build configuration list for PBXNativeTarget "BoomTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +503,7 @@
 				85A4F9C91C90B4B800149E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85A4F9CA1C90B4B800149E60 /* Build configuration list for PBXNativeTarget "BoomUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +512,7 @@
 				85A4F9CC1C90B4B800149E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
